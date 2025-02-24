@@ -39,7 +39,7 @@ dependencies = [
     "darkdetect>=0.8.0",
     # AutoML
     # Linux & Windows
-    "onnxtr[gpu]>=0.6.0, <1.0.0; sys_platform != 'darwin'",
+    "onnxtr[cpu]>=0.6.0, <1.0.0; sys_platform != 'darwin'",
     # MacOS compatibility
     "onnxtr[cpu]>=0.6.0, <1.0.0; sys_platform == 'darwin'",
 ]
